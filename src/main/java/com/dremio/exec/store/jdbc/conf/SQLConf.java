@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.annotations.VisibleForTesting;
 import io.protostuff.Tag;
 
-@SourceType(value = "SQLARP", label = "SQL",uiConfig = "sql-layout.json")
+@SourceType(value = "SQLARP", label = "CData SQL",uiConfig = "sql-layout.json")
 public class SQLConf extends AbstractArpConf<SQLConf> {
   private static final String ARP_FILENAME = "arp/implementation/sql-arp.yaml";
   private static final ArpDialect ARP_DIALECT =

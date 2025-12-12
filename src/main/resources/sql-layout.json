@@ -10,7 +10,7 @@
         "isGeneral": true,
         "sections": [
           {
-            "name": "SQL Source",
+            "name": "CData SQL Source",
             "layout": "row",
             "elements": [
                 {
